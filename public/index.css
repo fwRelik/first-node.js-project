@@ -1,0 +1,36 @@
+.todo {
+    margin-bottom: 1rem;
+}
+
+.todo span.completed {
+    text-decoration: line-through;
+}
+
+.todo label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #f3f3f3;
+    padding: 1rem;
+}
+
+.todo i {
+    z-index: 2;
+}
+
+.notfound {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+}
+
+.notfound>img {
+    height: 80vh;
+    display: block;
+    margin: 60px auto;
+}
